@@ -1,0 +1,9 @@
+def print_N(Num:int)->None:
+    if Num==0:
+        return 
+    print(Num)
+    print_N(Num-1)
+    
+
+if __name__=='__main__':
+    print_N(5)
